@@ -2,6 +2,8 @@
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+  }
+}
 }
 .paragraph{
 	font-size: 24px;
@@ -32,4 +34,15 @@
 .icon{
 	width: 10%;
 	height: 10%;
+}
+.footer{
+	padding-top: 1rem;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.side-border{
+	border-left: solid 2.5px white;
+	border-right: solid 2.5px white;
 }
