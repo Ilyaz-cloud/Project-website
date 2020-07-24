@@ -45,8 +45,8 @@
 	text-align: center;
 	padding-bottom: 1rem;
 }
-.side-border{
-	
+.rec{
+	font-size: 26px;
 }
 @media all and (max-width: 1000px){
 	.title{
@@ -55,18 +55,18 @@
 		padding-bottom: 2rem;
 		font-size: 30px;
 	}
-	.paragraph{
+	.cardst, b, em, .paragraph, .schedule, .rec, .info,.footer {
 		font-size: 18px;
 	}
-	.cardst, b{
-		font-size: 25px;
-	}
-	.schedule{
-		font-size: 18px;
-	}
+
 }
-	@media all and (max-width: 580px;){
-	.schedule{
-		font-size: 1px;
+	@media all and (max-width: 350px){
+	.title{
+		text-align: center;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		font-size: 20px;
 	}
+	.cardst, b, em, .paragraph, .schedule, .rec, .info, .footer{
+		font-size: 14px;
 	}
