@@ -58,6 +58,11 @@
 	.cardst, b, em, .paragraph, .schedule, .rec, .info,.footer {
 		font-size: 18px;
 	}
+	.buttonsize{
+		width: 88px;
+		height: 37px;
+		font-size: 14px;
+	}
 
 }
 	@media all and (max-width: 350px){
@@ -69,4 +74,8 @@
 	}
 	.cardst, b, em, .paragraph, .schedule, .rec, .info, .footer{
 		font-size: 14px;
+	}
+	.buttonsize{
+		width: 70px;
+		font-size: 10px;
 	}
